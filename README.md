@@ -9,6 +9,8 @@ The two tables are merged in [merge.ipynb](merge.ipynb). Each home is paired to 
   
 We perform two types of analysis: static and time series.  
   
-In static analysis, [distCorr.ipynb](distCorr.ipynb), we focus on home price from one month, and investigate how distance to the nearest university influence the home price and which type of universities has a great influence.  
+Static analysis  
+In [distCorr.ipynb](distCorr.ipynb), we focus on home price from one month, and investigate how distance to the nearest university influence the home price and which type of universities has a great influence.  
+In [oneUniv.ipynb](oneUniv.ipynb), we specifically look at the homes around one university, and find the correlation between home price and home features.  
   
 In time series analysis, [historical.ipynb](historical.ipynb), we try to find out how do home prices change if they are close to universities compared to the homes if they are not close to universities, and if the pattern is different for different types of universities.
